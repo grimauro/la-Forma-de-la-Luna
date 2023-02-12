@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d0081eda-2c60-4346-8b9b-b76423d6d20a}">
+		<property name="name">
+			<value>habCanto</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cff61fb2-016c-48c4-b10a-728046aac116}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{33082cbf-2b17-4085-9178-00c631356234}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{33082cbf-2b17-4085-9178-00c631356234}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

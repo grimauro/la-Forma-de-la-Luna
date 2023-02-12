@@ -1,0 +1,62 @@
+exportar cada fbx por separado
+	paredes negras
+	zonas ruido
+	zonas aire
+	zonas puzzle
+	zonas checkpoint (incluye zona central)
+	puertas rojas ok
+	puertas azules
+	puertas amarillas
+
+colliders a paredes negras ok
+debuggear zonas
+	imprimir en consola en qué zona esta el pj ok
+
+
+cambiar puertas rojas ok
+espewcificar en que zona adquiere la habilidad canto. ok
+
+COSAS QUE FALTAN
+sistema de vida (disminución, cambio en iluminación, recuperación en zonas de puzzle, HUD)
+puertas amarillas
+menúes (game over, menú principal -con partitura y texto-)
+
+COMENZAR CON AUDIO 1819 del sabado.
+REPOSITORIO GITHUB ok
+	compartir...
+
+Pensar fundamentales y grabar
+
+exportar a FMOD e implementar al juego (learn)
+componer y escribir la música.
+
+resonancia = ruido
+rec1 = musica inicial (hasta puzzle)
+en puzzle empiezan las variaciones (con la primera acción de E)
+partitura: cuartas aleatorias tipo perlin noise
+estaba en la melodía de la Primera Versión.
+
+
+Texto:
+Jorge Luis Borges, los sueños, el mapa de El Nombre de la Rosa, por qué. 
+Encontrar algo que se encuentra en las profundidades del sueño es el objetivo del juego. Algo que el personaje no puede encontrar en su vida consciente.
+
+Partitura:
+zonaInicial. Registración fija (aleatoriedad entre 5 notas)
+zonaRuido0. Resonancia de notas.
+zonaAire0. Notas arpegiadas aleatoriamente (velocidad determinada por movimiento - perlin noise).
+zonas de Puzzle. Despliegue de material teclado.
+zonaPuzzle0. clip 0 en 7/8. keynote: F2.
+zonaPuzzle1. clip 1 Recírproco . keynote: C6
+zonaPuzzle2
+zonaPuzzle3
+zonaPuzzle4
+zonaCheckpoint0. clip0 en 7/8 (con percusión?)
+
+zonaRuido1. 
+zibaRuido2. percusiones
+zonaRuido3. 
+zonaRuido4. 
+
+dudas FMOD.
+como randomizar la duración de las notas en la zonaInicial (multi instrument)?

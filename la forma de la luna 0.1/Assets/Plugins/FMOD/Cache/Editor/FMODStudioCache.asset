@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7863317565364678752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicaZona0/zonaRuido0
+  m_EditorClassIdentifier: 
+  Path: event:/musicaZona0/zonaRuido0
+  Guid:
+    Data1: -1504413796
+    Data2: 1203768711
+    Data3: -1609673339
+    Data4: 1557343152
+  Banks:
+  - {fileID: -7498482882404432378}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40019
+--- !u!114 &-7498482882404432378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../LFDL1/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638118155789344426
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6194576458819989281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicaZona0/zonasZoneDetector
+  m_EditorClassIdentifier: 
+  Path: event:/musicaZona0/zonasZoneDetector
+  Guid:
+    Data1: -885870971
+    Data2: 1194289017
+    Data3: 579488185
+    Data4: 1226292967
+  Banks:
+  - {fileID: -7498482882404432378}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2253763561144960133}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 229112
+--- !u!114 &-6167602617076888001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicaZona1/zonaRuido1
+  m_EditorClassIdentifier: 
+  Path: event:/musicaZona1/zonaRuido1
+  Guid:
+    Data1: 537974187
+    Data2: 1124410048
+    Data3: -863392851
+    Data4: 260357280
+  Banks:
+  - {fileID: -7498482882404432378}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9320
+--- !u!114 &-2824230124701774041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicaZona1/zonaPuzzle1
+  m_EditorClassIdentifier: 
+  Path: event:/musicaZona1/zonaPuzzle1
+  Guid:
+    Data1: -1584319922
+    Data2: 1112763350
+    Data3: -1495113825
+    Data4: -420911609
+  Banks:
+  - {fileID: -7498482882404432378}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74631
+--- !u!114 &-1551824830209288211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../LFDL1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638118155789394434
+  FileSizes:
+  - Name: 
+    Value: 1060
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1551824830209288211}
+  - {fileID: -7498482882404432378}
+  EditorEvents:
+  - {fileID: 1763793912672311392}
+  - {fileID: -2824230124701774041}
+  - {fileID: -6194576458819989281}
+  - {fileID: -7863317565364678752}
+  - {fileID: -6167602617076888001}
+  - {fileID: 5111849352465768424}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -7498482882404432378}
+  StringsBanks:
+  - {fileID: -1551824830209288211}
+  cacheTime: 638118155789394434
+  cacheVersion: 131601
+--- !u!114 &1763793912672311392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicaZona0/zonaAire0
+  m_EditorClassIdentifier: 
+  Path: event:/musicaZona0/zonaAire0
+  Guid:
+    Data1: -797749718
+    Data2: 1167948076
+    Data3: 1979868579
+    Data4: 1976110718
+  Banks:
+  - {fileID: -7498482882404432378}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 35004
+--- !u!114 &2253763561144960133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/zonasZoneDetector/zoneDetector
+  m_EditorClassIdentifier: 
+  Name: zoneDetector
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 1227708134
+    data2: 3034706421
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5111849352465768424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musicaZona0/zonaPuzzle0
+  m_EditorClassIdentifier: 
+  Path: event:/musicaZona0/zonaPuzzle0
+  Guid:
+    Data1: -1204401718
+    Data2: 1238795057
+    Data3: -313898856
+    Data4: 1640400544
+  Banks:
+  - {fileID: -7498482882404432378}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59376

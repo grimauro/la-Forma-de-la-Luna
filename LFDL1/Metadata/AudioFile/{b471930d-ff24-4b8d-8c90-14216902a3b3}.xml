@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b471930d-ff24-4b8d-8c90-14216902a3b3}">
+		<property name="assetPath">
+			<value>nota0-F3.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.512653061224491</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3c17d498-c855-4a44-a7e0-706b1a88689b}</destination>
+		</relationship>
+	</object>
+</objects>

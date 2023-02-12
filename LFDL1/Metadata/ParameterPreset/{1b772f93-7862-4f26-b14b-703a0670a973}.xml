@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{1b772f93-7862-4f26-b14b-703a0670a973}">
+		<property name="name">
+			<value>zoneDetector</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cff61fb2-016c-48c4-b10a-728046aac116}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{af37cdac-3354-4b41-9194-fd33bf8bd244}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{af37cdac-3354-4b41-9194-fd33bf8bd244}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
